@@ -1,0 +1,10 @@
+Spectra resulting from measurements of Co-60, Am-241, Cs-137,and Ba-133 check
+sources were provided to students via a publicly-accessible dropbox folder. Via
+a python script, this data was downloaded and placed in NumPy arrays for
+analysis. Peaks in the spectra corresponding to photopeaks of known energy were
+then picked out manually and fitted using a gaussian distribution using SciPy's
+curvefit tool. The estimates produced by curvefit for /mu (in units of channel number) for the
+661.7keV and 59.5keV lines from the Cs and Am sources were then
+used to develop a linear calibration of the form \[E_x = a*x + b\] (in which x denotes
+the channel index).This calibration was then applied to the dataset gathered from
+a Ba-133 check source in order to determine the accuracy of the fit.

@@ -1,0 +1,43 @@
+% Basic LaTeX template for NE 204 lab report
+\documentclass[11pt]{article}
+
+%==============================================================================
+%%% Everything between the "="'s is the preamble.
+%%% Define packages and meta data here
+
+% Common packages
+\usepackage{amsmath}    % Expanded math
+\usepackage{amssymb}    % Expanded math symbols
+\usepackage{graphicx}   % For images
+%\usepackage[version=3]{mhchem} % For nuclide formatting
+
+% All images/figures will be stored in the images folder.
+% Specify that here so pdflatex knows where to look for images.
+\graphicspath{{./images/}}
+
+% Metadata
+\title{Two-point Calibration of a Coaxial HPGe Detector}
+\author{Jake Hecla}
+\date{January 31, 2018}
+%==============================================================================
+
+\begin{document}
+
+% Compile metadata from preamble into a nicely-rendered title section
+\maketitle
+
+% The *'s next so section/subsection definitions suppresses numbering
+\section*{Introduction}
+\label{sec:intro}
+\input{text/introduction.tex}
+
+\section*{Methods}
+\label{sec:meth}
+\input{text/methods.tex}
+
+\section*{Results and Discussion}
+\label{sec:res}
+\input{text/results.tex}
+
+
+\end{document}

@@ -1,0 +1,1 @@
+238e7a1b6ed8dfca68fdde792e2fbe98  lab0_spectral_data.txt
