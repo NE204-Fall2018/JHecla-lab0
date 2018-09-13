@@ -12,11 +12,11 @@ $(manuscript).pdf: $(manuscript).tex text/*.tex references.bib images/*.png
 # Get/download necessary data
 
 data :
-	curl -L -O https://www.dropbox.com/s/k692avun0144n90/lab0_spectral_data.txt
+	curl -L -O https://www.dropbox.com/s/hutmwip3681xlup/lab0_spectral_data.txt
 
 # Validate that downloaded data is not corrupted
 validate :
-	curl -L -O https://www.dropbox.com/s/6jquiryg6jskii0/lab0_spectral_data.md5
+	curl -L -O https://www.dropbox.com/s/amumdrm9zp1kn8d/lab0_spectral_data.md5
 	md5sum lab0_spectral_data.txt
 	md5sum -c lab0_spectral_data.md5
 

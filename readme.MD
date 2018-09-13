@@ -3,13 +3,22 @@
 To get data:
 make data
 
-To get analysis
+To validate:
+make validate
+
+To get analysis:
 make analysis
 
-To test
+To test:
 make test
 
-## How to use this template
+To generate PDF:
+make
+
+To clean up:
+make clean
+
+## How to use this template (THIS IS FROM THE NE204 SPRING 2018 WEBSITE)
 
 [H/T stack overflow](https://stackoverflow.com/questions/1657017/how-to-squash-all-git-commits-into-one/9254257#9254257)
 

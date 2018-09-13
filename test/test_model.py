@@ -1,5 +1,7 @@
 from __future__ import absolute_import
-from code.spectrum_cal import gaus
+import sys
+sys.path.append('./code')
+from spectrum_cal import gaus
 
 def test_gaus_sym():
     A = 100

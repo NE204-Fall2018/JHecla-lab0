@@ -20,7 +20,7 @@ ba133 = []
 cs137 = []
 co60 = []
 eu152 = []
-with open('/home/jake/lab0/lab0_spectral_data.txt', 'r') as f:
+with open('/home/jake/Documents/lab0/lab0_spectral_data.txt', 'r') as f:
     content = f.readlines()[1:]
     for x in content:
         row = x.split()
