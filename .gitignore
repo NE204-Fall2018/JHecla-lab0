@@ -1,3 +1,5 @@
 # Data
-
 lab0_spectral_data.*
+
+# Editor cruft
+*.swp
