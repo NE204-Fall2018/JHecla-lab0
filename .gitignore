@@ -3,3 +3,10 @@ lab0_spectral_data.*
 
 # Editor cruft
 *.swp
+
+# LaTeX cruft
+*.aux
+*.bbl
+*.blg
+*.log
+*.pdf
